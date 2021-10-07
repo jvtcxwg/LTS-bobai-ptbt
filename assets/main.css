@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    margin-top: 18px;
+    display: inline-flex;
+    width: 1100px;
+    height: 600px;
+    border: 1px solid #666;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.shuffle-btn {
+    flex-basis: 100px;
+}
+
+.the-bai {
+    width: 1000px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.thebai-img {
+    display: flex;
+}
+
+.thebai-img .img {
+    width: 1000px;
+    height: 600px;
+    object-fit: contain;
+}
